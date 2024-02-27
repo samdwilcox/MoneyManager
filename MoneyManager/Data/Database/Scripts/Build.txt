@@ -1,0 +1,15 @@
+
+/*
+	Creates table transactions.
+*/
+
+CREATE TABLE transactions (id INTEGER PRIMARY KEY, amount INTEGER, nature TEXT, note TEXT, date TEXT);
+
+CREATE TABLE transactions_table(id INTEGER PRIMARY KEY, type TEXT, amount TEXT, nature TEXT, note TEXT, date TEXT, user_id INTEGER);
+
+/*
+	Creates table people.
+*/
+CREATE TABLE people (user_id INTEGER PRIMARY KEY, username TEXT, password TEXT);
+
+CREATE TABLE users (user_id INTEGER PRIMARY KEY, username TEXT, password TEXT, balance TEXT, salary TEXT, hours INTEGER, hourlyRate TEXT, taxBracket TEXT, taxBracketString TEXT, taxPaid TEXT, salaryAfterTax TEXT);
