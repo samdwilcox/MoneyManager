@@ -1,9 +1,8 @@
 MONEYMANAGER
 
-LOGINS:
-  username:      password:
-  admin          admin 
-  Sam            password
+LOGINS: 
+username/password: admin|admin
+username/password: Sam|password
 
 MoneyManager is a basic finance manager app, allowing the user to enter expenses/incomes and to calculate their income tax from their annual salary.
 
